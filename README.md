@@ -18,7 +18,7 @@ Navigate to `http://localhost:3000/api/test`. If you can see the response your s
 
 The database is created in POSTGRESQL, you can recreate it with the following queries:
 
-- CREATE TABLE client (ID int, CLIENT varchar, NAME varchar, LOCATION varchar, POLYGON geometry, active char);
+- CREATE TABLE client (id int, client varchar, name varchar, location varchar, polygon geometry, active char);
 - CREATE EXTENSION postgis;
 - INSERT INTO client VALUES
 	(1, '00001', 'Predio 1', 'Mesa de Seri - Maleza', 'POLYGON((29.108564 -110.853055, 29.110177 -110.851016, 29.113617 -110.851209, 29.114582 -110.853452, 29.111470 -110.855501, 29.111489 -110.855511, 29.108564 -110.853055))', '1'),
