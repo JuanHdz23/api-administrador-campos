@@ -1,0 +1,16 @@
+{
+    "TEST" : {
+        "HOST": "localhost",
+        "DB": "polygon",
+        "USERDB": "postgres",
+        "PASSDB": "postgres"
+    },
+    "PROD" : {
+        "HOST": "en_desarrollo",
+        "DB": "en_desarrollo",
+        "USERDB": "en_desarrollo",
+        "PASSDB": "en_desarrollo"
+    },
+    "PORT": 3000,
+    "SECRETORPRIVATEKEY": "Est03sMyPub1cK3y23@915"
+}
